@@ -15,7 +15,7 @@ npm install @ldolne/holidates
 This module is a command line tool that will take a country name (mandatory) 
 and a year (optional, default is current year) as parameters:
 ```
-holidates Belgium [2019]
+npx holidates Belgium [2019]
 ```
 
 This tool will verify that the parameter is a well-formatted country name, transform it onto a two-letters country code,

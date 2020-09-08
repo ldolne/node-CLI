@@ -83,6 +83,7 @@ axiosGetHolidaysForOneCountry(chosenYear, countryCode)
                 )
             );
         }
+        console.log("\n");
         spinner.succeed("Results ready.");
         spinner.stop();
     })
